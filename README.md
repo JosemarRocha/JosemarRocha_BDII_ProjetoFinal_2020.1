@@ -38,19 +38,24 @@ Cada comando com seu próprio terminal.
 const driver = new neo4j.driver("neo4j://localhost:<BOLT PORT DO NEO4J>", neo4j.auth.basic("neo4j", "<SENHA ESCOLHIDA>")); //("usuario", "senha")
 ```
 
-8. Com tudo feito, podemos iniciar o banco do neo4j.
+8. No diretório do backend1 use o seguinte comando(umas 2 vezes pra ter certeza lol):
+```
+yarn typeorm migration:run
+```
 
-9. Com o seguinte comando iniciaremos os 3 bancos de dados nos terminais, é necessário um terminal para cada banco onde irá navegar até cada diretório, exemplo backend1-3:
+9. Com tudo feito, podemos iniciar o banco do neo4j.
+
+10. Com o seguinte comando iniciaremos os 3 bancos de dados nos terminais, é necessário um terminal para cada banco onde irá navegar até cada diretório, exemplo backend1-3:
 ```
 yarn dev
 ```
 
-10. Agora devemos iniciar a parte web, navendo até seu diretório de nome "web" e utilizando o seguinte comando:
+11. Agora devemos iniciar a parte web, navendo até seu diretório de nome "web" e utilizando o seguinte comando:
 ```
 npm start
 ```
 
-11. Por fim para acessarmos o ambiente/site, no navegador acessamos o seguinte link:
+12. Por fim para acessarmos o ambiente/site, no navegador acessamos o seguinte link:
 ```
 http://localhost:3000/
 ```
