@@ -1,7 +1,7 @@
 # Projeto Final de Banco de Dados 2
 ## Projeto acanimes
 
-####### Como instalar:
+###### Como instalar:
 
 Requerimentos:
 - Node js.
@@ -66,7 +66,7 @@ http://localhost:3000/
   - Curta um anime que o usuário anterior já tem como curtido, fazendo o mesmo processo na página de "Curtir Animes".
 5. Por fim vá até a página "Receber recomendações" e o que deve aparecer é o anime que o outro usuário curtiu, mas este novo não.
 
-####### Agradecimentos:
+###### Agradecimentos:
 
 - Professor Acauan.
 - Joshua Kook Ho.
