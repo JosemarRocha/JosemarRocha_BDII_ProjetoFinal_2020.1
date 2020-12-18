@@ -1,6 +1,10 @@
 # Projeto Final de Banco de Dados 2
 ## Projeto acanimes
 
+<p align="center">
+  <img src="acanimes.png" alt="acanimes">
+</p>
+
 ###### Como instalar:
 
 Requerimentos:
